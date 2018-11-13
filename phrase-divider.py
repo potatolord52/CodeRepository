@@ -1,9 +1,15 @@
 sentence1=str(input("Enter the first short sentence: "))
 sentence2=str(input("Enter the second short sentence: "))
+
 words1=sentence1.split()
 words2=sentence2.split()
 bigSentence=words1+words2
-print(len(bigSentence))
+bigSentence.sort(key=str.lower)
+print(bigSentence)
+print("The length of your sentences is",len(bigSentence))
 
-#print("\nLength of sentences is:",len(final))
-#How do I sort aphabetically ignoring caps? the sort() function takes caps into consideration and prioritizes them
+counterList=bigSentence
+print(Counts)
+
+#*: for i in bigSentence
+#print("The amount of times each word is mentioned: \n", rfeifojreo)
